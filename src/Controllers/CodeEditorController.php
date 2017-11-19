@@ -4,7 +4,7 @@
  * Help: http://laraadmin.com
  */
 
-namespace Dwij\Laeditor\Controllers;
+namespace Laraadmin\Editor\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
