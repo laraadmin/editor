@@ -4,12 +4,12 @@
  * Help: http://laraadmin.com
  */
 
-namespace Dwij\Laeditor\Commands;
+namespace Laraadmin\Editor\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use App\Helpers\LAHelper;
 use Eloquent;
 use DB;
 
@@ -43,7 +43,7 @@ class LAEditor extends Command
 		try {
 			$this->info('LaraAdmin Code Editor installation started...');
 			
-			$from = base_path('vendor/dwij/laeditor/src/Installs');
+			$from = base_path('vendor/laraadmin/editor/src/Installs');
 			$to = base_path();
 			
 			$this->info('from: '.$from." to: ".$to);
